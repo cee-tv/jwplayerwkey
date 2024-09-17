@@ -850,62 +850,6 @@ var playerInstance = jwplayer("jwplayerDiv");
       }
     });
   }
-
-// Function to switch to DRM 45
-  function switchToDRM45() {
-    playerInstance.setup({
-      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
-      type: "dash",
-      drm: {
-        "clearkey": {
-          "keyId": "dac605bc197e442c93f4f08595a95100",
-          "key": "975e27ffc1b7949721ee3ccb4b7fd3e5"
-        }
-      }
-    });
-  }
-
-// Function to switch to DRM 46
-  function switchToDRM46() {
-    playerInstance.setup({
-      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
-      type: "dash",
-      drm: {
-        "clearkey": {
-          "keyId": "dac605bc197e442c93f4f08595a95100",
-          "key": "975e27ffc1b7949721ee3ccb4b7fd3e5"
-        }
-      }
-    });
-  }
-
-// Function to switch to DRM 47
-  function switchToDRM47() {
-    playerInstance.setup({
-      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
-      type: "dash",
-      drm: {
-        "clearkey": {
-          "keyId": "dac605bc197e442c93f4f08595a95100",
-          "key": "975e27ffc1b7949721ee3ccb4b7fd3e5"
-        }
-      }
-    });
-  }
-// Function to switch to DRM 48
-  function switchToDRM48() {
-    playerInstance.setup({
-      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
-      type: "dash",
-      drm: {
-        "clearkey": {
-          "keyId": "dac605bc197e442c93f4f08595a95100",
-          "key": "975e27ffc1b7949721ee3ccb4b7fd3e5"
-        }
-      }
-    });
-  }
-
 // Function to switch to another stream with M3U8 URL and no DRM
   function switchToOtherStream() {
     playerInstance.setup({
@@ -933,6 +877,10 @@ var playerInstance = jwplayer("jwplayerDiv");
           type: "hls",  // Set the type to HLS for M3U8 URLs
         });
         }
-      
+      // Display a pop-up message when the page starts
+       window.addEventListener("load", function() {
+      var result = window.confirm("Join Telegram Group More Update");
+      if (result) {
+        window.location.href = "https://telegram.me/demo";
       }
     });

@@ -389,6 +389,177 @@ var playerInstance = jwplayer("jwplayerDiv");
 // Function to switch to DRM 28
   function switchToDRM28() {
     playerInstance.setup({
+      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hitsnow.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "14439a1b7afc4527bb0ebc51cf11cbc1",
+          "key": "92b0287c7042f271b266cc11ab7541f1"
+        }
+      }
+    });
+  }
+
+
+// Function to switch to DRM 29
+  function switchToDRM29() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "d47ebabf7a21430b83a8c4b82d9ef6b1",
+          "key": "54c213b2b5f885f1e0290ee4131d425b"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 30
+  function switchToDRM30() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbofam.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "872910c843294319800d85f9a0940607",
+          "key": "f79fd895b79c590708cf5e8b5c6263be"
+        }
+      }
+    });
+  }
+
+
+// Function to switch to DRM 31
+  function switchToDRM31() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "a06ca6c275744151895762e0346380f5",
+          "key": "559da1b63eec77b5a942018f14d3f56f"
+        }
+      }
+    });
+  }
+
+
+// Function to switch to DRM 32
+  function switchToDRM32() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "b04ae8017b5b4601a5a0c9060f6d5b7d",
+          "key": "a8795f3bdb8a4778b7e888ee484cc7a1"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 33
+  function switchToDRM33() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "dac605bc197e442c93f4f08595a95100",
+          "key": "975e27ffc1b7949721ee3ccb4b7fd3e5"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 34
+  function switchToDRM34() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "0f856762412b11edb8780242ac120002",
+          "key": "7199bc900b9e23087d3a2c0c6d4edce4"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 35
+  function switchToDRM35() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_thrill_sd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "928114ffb2394d14b5585258f70ed183",
+          "key": "a82edc340bc73447bac16cdfed0a4c62"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 36
+  function switchToDRM36() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "bee1066160c0424696d9bf99ca0645e3",
+          "key": "f5b72bf3b89b9848de5616f37de040b7"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 37
+  function switchToDRM37() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_axn_sd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "fd5d928f5d974ca4983f6e9295dfe410",
+          "key": "3aaa001ddc142fedbb9d5557be43792f"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 38
+  function switchToDRM38() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "b207c44332844523a3a3b0469e5652d7",
+          "key": "fe71aea346db08f8c6fbf0592209f955"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 39
+  function switchToDRM39() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "4503cf86bca3494ab95a77ed913619a0",
+          "key": "afc9c8f627fb3fb255dee8e3b0fe1d71"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 40
+  function switchToDRM40() {
+    playerInstance.setup({
       file: "https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/kix_hd1.mpd",
       type: "dash",
       drm: {
@@ -400,74 +571,112 @@ var playerInstance = jwplayer("jwplayerDiv");
     });
   }
 
-
-// Function to switch to DRM 29
-  function switchToDRM29() {
+// Function to switch to DRM 41
+  function switchToDRM41() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+      file: "https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_kbsworld.mpd",
       type: "dash",
       drm: {
         "clearkey": {
-          "keyId": "1917f4caf2364e6d9b1507326a85ead6",
-          "key": "a1340a251a5aa63a9b0ea5d9d7f67595"
+          "keyId": "0f85439a412b11edb8780242ac120002",
+          "key": "f13d1d9b74d54cb0fb901b9608026105"
         }
       }
     });
   }
 
-// Function to switch to DRM 30
-  function switchToDRM30() {
+// Function to switch to DRM 42
+  function switchToDRM42() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+      file: "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_tvnmovie.mpd",
       type: "dash",
       drm: {
         "clearkey": {
-          "keyId": "1917f4caf2364e6d9b1507326a85ead6",
-          "key": "a1340a251a5aa63a9b0ea5d9d7f67595"
+          "keyId": "2e53f8d8a5e94bca8f9a1e16ce67df33",
+          "key": "3471b2464b5c7b033a03bb8307d9fa35"
         }
       }
     });
   }
 
-
-// Function to switch to DRM 31
-  function switchToDRM31() {
+// Function to switch to DRM 43
+  function switchToDRM43() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+      file: "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_tvnpre.mpd",
       type: "dash",
       drm: {
         "clearkey": {
-          "keyId": "1917f4caf2364e6d9b1507326a85ead6",
-          "key": "a1340a251a5aa63a9b0ea5d9d7f67595"
+          "keyId": "e1bde543e8a140b38d3f84ace746553e",
+          "key": "b712c4ec307300043333a6899a402c10"
         }
       }
     });
   }
 
-
-// Function to switch to DRM 32
-  function switchToDRM32() {
+// Function to switch to DRM 44
+  function switchToDRM44() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
       type: "dash",
       drm: {
         "clearkey": {
-          "keyId": "1917f4caf2364e6d9b1507326a85ead6",
-          "key": "a1340a251a5aa63a9b0ea5d9d7f67595"
+          "keyId": "dac605bc197e442c93f4f08595a95100",
+          "key": "975e27ffc1b7949721ee3ccb4b7fd3e5"
         }
       }
     });
   }
 
-// Function to switch to DRM 33
-  function switchToDRM33() {
+// Function to switch to DRM 45
+  function switchToDRM45() {
     playerInstance.setup({
-      file: "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cnn_rptv_prod_hd.mpd",
+      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
       type: "dash",
       drm: {
         "clearkey": {
-          "keyId": "1917f4caf2364e6d9b1507326a85ead6",
-          "key": "a1340a251a5aa63a9b0ea5d9d7f67595"
+          "keyId": "dac605bc197e442c93f4f08595a95100",
+          "key": "975e27ffc1b7949721ee3ccb4b7fd3e5"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 46
+  function switchToDRM46() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "dac605bc197e442c93f4f08595a95100",
+          "key": "975e27ffc1b7949721ee3ccb4b7fd3e5"
+        }
+      }
+    });
+  }
+
+// Function to switch to DRM 47
+  function switchToDRM47() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "dac605bc197e442c93f4f08595a95100",
+          "key": "975e27ffc1b7949721ee3ccb4b7fd3e5"
+        }
+      }
+    });
+  }
+// Function to switch to DRM 48
+  function switchToDRM48() {
+    playerInstance.setup({
+      file: "https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/hits_hd1.mpd",
+      type: "dash",
+      drm: {
+        "clearkey": {
+          "keyId": "dac605bc197e442c93f4f08595a95100",
+          "key": "975e27ffc1b7949721ee3ccb4b7fd3e5"
         }
       }
     });
